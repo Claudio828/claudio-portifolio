@@ -23,7 +23,7 @@ toggle.onclick = function() {
 
 window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
-    var div = document.querySelector('.header'); // Substitua ".meuDiv" pelo seletor do seu div
+    var div = document.querySelector('#header'); // Substitua ".meuDiv" pelo seletor do seu div
     
     if (scrollPosition <= 100) {
         div.classList.add('animaDiv');
@@ -39,7 +39,7 @@ window.addEventListener('scroll', function() {
 
 function toggleDiv() {
     var div = document.getElementById("menu_bar_nav");
-    var header = document.getElementById("header_css");
+    var header = document.getElementById("header");
     if (div.style.display === "flex") {
       div.style.display = "none";
       header.style.borderRadius = "0 0 12px 12px"
