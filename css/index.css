@@ -397,9 +397,10 @@ max-width: 350px;
 	background-color: var(--background);
 	display: flex;
 	flex-direction: column;
-	height: auto;
 	margin: 20px 0 20px 0;
 	gap: 1rem;
+	min-width: 200px;
+	
 }
 
 .slotbuttons {
@@ -592,8 +593,8 @@ footer p {
 		justify-content: center;
 	}
 
-	.img1,.img2 {
-		width: 100%;
+	.img1,.img2{
+		max-width: 300px;
 	}
 
 	.container_2 {
