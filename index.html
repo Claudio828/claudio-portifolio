@@ -7,7 +7,7 @@
 		<meta name="description" content="Portfólio Profissional" />
 		<meta name="copyright" content="©2023 Marcos" />
 		<meta name="author" content="Marcos Lima" />
-		<title>Claudir portfólio</title>
+		<title>HorizonBuilds</title>
 
 		<!-- imports -->
 		<script src="https://kit.fontawesome.com/6ffe26f1f6.js" crossorigin="anonymous" defer></script>
@@ -17,12 +17,12 @@
 	</head>
 
 	<body>
-		<header id="header">
+		<header id="header" class="twhite">
 			<div class="header" id="header_css">
 				<nav class="Menu_options">
 					<div class="logo">
-						<i class="fa-solid fa-screwdriver-wrench"></i>
-						<h2 class="stext">Claudir</h2>
+						<img src="./img/logo.svg" class="Logoimg" alt="Logo da empresa">
+						<h2 class="stext">HorizonBuild</h2>
 					</div>
 					<ul class="Menu_options_list">
 						<li><a href="#welcome">Início</a></li>
@@ -50,93 +50,98 @@
 		</header>
 
 		<main>
-			<section class="section_1" id="welcome">
-				<div class="container_1">
-					<div class="hero">
-						<h1>Olá, Me Chamo Claudir</h1>
-						<p>Eu sou um construtor residencial, predial e industrial</p>
-						<div class="social_icons">
-							<a href="mailto:claudirneves41@gmail.com" target="_blank" title="Github"><i class="fa-solid fa-envelope"></i></a>
-							<a href="https://api.whatsapp.com/send?phone=558781243169" target="_blank" title="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+			<section class="welcome" id="welcome">
+				<div class="slidershow">
+					<div class="slider">
+						<img src="./img/Hidraulica.webp" alt="" class="imgslider" ; />
+						<span class="shadow"></span>
+						<div class="container_1">
+							<h2>texto texto</h2>
+							<p>texto texto</p>
 						</div>
 					</div>
-					<img src="./img/hero1.png" draggable="false" class="img1" alt="" />
-				</div>
-				<div class="arrow"><i class="fa-solid fa-arrow-down"></i></div>
-			</section>
 
-			<section class="section_2" id="about_me">
-				<h1>Sobre Mim</h1>
-				<div class="container_2">
-					<img src="./img/claudir.jpg" alt="" class="img2" />
-					<div class="texts_2">
-						<p>
-							Olá! Sou Claudir. Minha trajetória no universo da construção e reforma estende-se por anos, período no qual aperfeiçoei a arte de dar vida a visões e sonhos. Desde as etapas iniciais de
-							um projeto, como a impermeabilização técnica, até os detalhes finais que envolvem acabamentos sofisticados em pintura e textura, cada passo é dado com paixão e precisão.
-						</p>
-						<p>
-							Meu compromisso é sempre oferecer soluções que combinem funcionalidade com design, valorizando cada espaço e atendendo às necessidades específicas de cada cliente. Acredito que a chave
-							para um trabalho bem-sucedido está na atenção aos detalhes e na constante busca pela excelência.
-						</p>
-						<p>
-							Além de garantir que os aspectos técnicos estejam impecáveis, também considero a estética e a sensação que um ambiente pode proporcionar. Se você está à procura de um profissional que
-							entende que construção vai além de erguer paredes, mas envolve criar experiências e ambientes acolhedores, estou à disposição para embarcarmos juntos nessa jornada.
-						</p>
+					<div class="slider">
+						<img src="./img/hero1.png" alt="" class="imgslider" />
+						<span class="shadow"></span>
+						<div class="container_1">
+							<h2>texto texto</h2>
+							<p>texto texto</p>
+						</div>
 					</div>
+
+					<div class="slider">
+						<img src="./img/Texturas.jpg" alt="" class="imgslider" />
+						<span class="shadow"></span>
+						<div class="container_1">
+							<h2>texto texto</h2>
+							<p>texto texto</p>
+						</div>
+					</div>
+
+					<button class="prev" onclick="plusSlides(-1)"><i class="fa-solid fa-angle-left"></i></button>
+					<button class="next" onclick="plusSlides(1)"><i class="fa-solid fa-angle-right"></i></button>
+				</div>
+				<div class="dotpages">
+					<span class="dot active" onclick="currentSlides(1)"></span>
+					<span class="dot " onclick="currentSlides(2)"></span>
+					<span class="dot " onclick="currentSlides(3)"></span>
 				</div>
 			</section>
 
-			<section class="section_3" id="skills">
-				<div class="container_3">
-					<h1>Habilidades</h1>
-
+			<section class="serviços" id="skills">
+				<div class="serviços_C">
+					<h1>Serviços</h1>
 					<div class="type_skill">
 						<div class="tabs">
 							<div class="skills">
 								<img draggable="false" src="./img/Impermeabilização.jpg" alt="" class="skillimg" />
-								<div class="skills1">
-									<h1>Impermeabilização</h1>
-									<a href="" class="button">Serviços</a>
+								<div class="skillsT">
+									<h2>Impermeabilização</h2>
+									<p>
+										Garantir a impermeabilização adequada é fundamental para proteger sua propriedade contra danos e desgastes prematuros. Ao escolher nossos serviços, você investe em soluções de alta
+										qualidade, com profissionais experientes, garantindo a segurança e durabilidade que seu espaço merece.
+									</p>
 								</div>
 							</div>
 
 							<div class="skills">
 								<img draggable="false" src="./img/PinturaGeral.jpg" alt="" class="skillimg" />
-								<div class="skills1">
-									<h1>Pintura Geral</h1>
-									<a href="" class="button">Serviços</a>
+								<div class="skillsT">
+									<h2>Pintura Geral</h2>
+									<p></p>
 								</div>
 							</div>
 
 							<div class="skills">
 								<img draggable="false" src="./img/Texturas.jpg" alt="" class="skillimg" />
-								<div class="skills1">
-									<h1>Texturas</h1>
-									<a href="" class="button">Serviços</a>
+								<div class="skillsT">
+									<h2>Texturas</h2>
+									<p></p>
 								</div>
 							</div>
 
 							<div class="skills">
 								<img draggable="false" src="./img/Vinilico.webp" alt="" class="skillimg" />
-								<div class="skills1">
-									<h1>Vinílico</h1>
-									<a href="" class="button">Serviços</a>
+								<div class="skillsT">
+									<h2>Vinílico</h2>
+									<p></p>
 								</div>
 							</div>
 
 							<div class="skills">
 								<img draggable="false" src="./img/Eletrica.jpg" alt="" class="skillimg" />
-								<div class="skills1">
-									<h1>Elétrica</h1>
-									<a href="" class="button">Serviços</a>
+								<div class="skillsT">
+									<h2>Elétrica</h2>
+									<p></p>
 								</div>
 							</div>
 
 							<div class="skills">
 								<img draggable="false" src="./img/Hidraulica.webp" alt="" class="skillimg" />
-								<div class="skills1">
-									<h1>Hidráulica Geral</h1>
-									<a href="" class="button">Serviços</a>
+								<div class="skillsT">
+									<h2>Hidráulica Geral</h2>
+									<p></p>
 								</div>
 							</div>
 						</div>
@@ -144,31 +149,90 @@
 				</div>
 			</section>
 
-
-			<section class="section_5" id="contact">
-				<div class="container_5">
-					<h1>Contatos</h1>
-					<div class="contatos">
-						<a href="mailto:claudirneves41@gmail.com" target="_blank" class="sbox">
-							<div class="contacticons">
-								<div class="Buttonicon"><i class="fa-solid fa-envelope"></i></div>
-								<p>Email</p>
+			<section class="contatos" id="contatos">
+				<h1>Contatos</h1>
+				<div class="contato-area">
+					<form action="" class="emailsender">
+						<h2>Envie um <span>Email</span></h2>
+						<input class="textboxs" type="text" id="username" name="username" placeholder="Seu Nome" />
+						<input class="textboxs" type="email" placeholder="Email" name="email" id="email" />
+						<textarea class="textboxl" placeholder="Mensagem" name="" id="" cols="30" rows="10"></textarea>
+						<input type="button" value="Enviar" class="button" />
+					</form>
+	
+					<div class="conteudo7">
+						<div class="fale-conosco">
+							<h2>Fale <span>conosco</span></h2>
+							<p>Fale com a gente e faça seu orçamento via whatsapp ou email</p>
+							<a href="" class="button">Conversar Agora</a>
+						</div>
+						<div class="numeros">
+							<h2>Nossos Contatos</h2>
+							<h3><i class="fa-solid fa-phone"></i>87 8124-3169</h3>
+							<h3><i class="fa-solid fa-phone"></i>87 99999-9999</h3>
+							<h3><i class="fa-solid fa-envelope"></i>DefumadasSul@gmail.com</h3>
+						</div>
+						<div class="rede-sociais">
+							<h2>Nossas <span>Redes Socias</span></h2>
+							<div>
+								<a href=""><i class="fa-brands fa-square-twitter"></i></a>
+								<a href=""><i class="fa-brands fa-square-instagram"></i></a>
+								<a href="mailto:claudirneves41@gmail.com"><i class="fa-brands fa-square-facebook"></i></a>
+								<a href="https://api.whatsapp.com/send?phone=558781243169"><i class="fa-brands fa-square-whatsapp"></i></a>
 							</div>
-						</a>
-
-						<a href="https://api.whatsapp.com/send?phone=558781243169" target="_blank" class="sbox">
-							<div class="contacticons">
-								<div class="Buttonicon"><i class="fa-brands fa-whatsapp"></i></div>
-								<p>Whatsapp</p>
-							</div>
-						</a>
+						</div>
 					</div>
+				</div>
+	
+				<div class="localizacao">
+					<h2>Nossa <span>Localização</span></h2>
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9375.43288851211!2d-36.50070198276246!3d-8.890380221338905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7070d200a110927%3A0x51f45fae994f83b3!2sGaranhuns%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1694691326545!5m2!1spt-BR!2sbr"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
 				</div>
 			</section>
 		</main>
 
 		<footer>
-			<p>© Copyright 2023. Made by Marcos Lima</p>
+			<div class="Divisor_do_Footer">
+				<!-- footer_Social_links_footer -->
+				<div class="Social_links_footer">
+					<img src="./img/Logo.svg" draggable="false" class="img flogo_icon" alt="" loading="lazy" />
+					<p class="texto_motivacao">Linguiça do claudio, a maior linguiça do mercado.</p>
+				</div>
+
+				<!-- footer_Sobre_empresa -->
+				<nav class="Sobre_empresa">
+					<ul>
+						<li>
+							<h2>Sobre nós</h2>
+						</li>
+						<li class="Footer_links">
+							<a href="#about" class="ptext">Quem somos</a>
+						</li>
+					</ul>
+				</nav>
+
+				<!-- footer_Ferramentas -->
+
+				<nav class="Ferramentas">
+					<ul>
+						<li>
+							<h2>Plataforma</h2>
+						</li>
+						<li class="Footer_links">
+							<a href="./produtos.html" class="ptext">Preços</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<!-- footer_Legal -->
+
+			<div class="Legal">
+				<p>copyright <i class="fa-regular fa-copyright"></i> 2023 Defumadas Sul</p>
+			</div>
 		</footer>
 	</body>
 </html>
