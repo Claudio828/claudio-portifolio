@@ -20,16 +20,16 @@
 		<header id="header" class="twhite">
 			<div class="header" id="header_css">
 				<nav class="Menu_options">
-					<div class="logo">
-						<img src="./img/logo.svg" class="Logoimg" alt="Logo da empresa">
-						<h2 class="stext">HorizonBuild</h2>
-					</div>
+					<a href="./index.html" class="logo">
+						<img src="./img/logo.svg" class="Logoimg" alt="Logo da empresa" />
+						<h2 class="stext">HorizonBuilds</h2>
+					</a>
 					<ul class="Menu_options_list">
 						<li><a href="#welcome">Início</a></li>
-						<li><a href="#about_me">Sobre Mim</a></li>
-						<li><a href="#skills">Habilidades</a></li>
+						<li><a href="#about_me">Quem Somos</a></li>
+						<li><a href="#skills">Serviços</a></li>
 						<li><a href="#projects">Projetos</a></li>
-						<li><a href="#contact" class="button bcontact">Contatos</a></li>
+						<li><a href="/Contatos.html" class="button bcontact">Contatos</a></li>
 					</ul>
 				</nav>
 				<button class="button" id="theme-toggle" type="button">
@@ -40,11 +40,11 @@
 			</div>
 			<nav class="menu_bar_nav" id="menu_bar_nav">
 				<ul class="Menu_bar">
-					<li><a onclick="toggleDiv()" class="button" href="#welcome">Início</a></li>
-					<li><a onclick="toggleDiv()" class="button" href="#about_me">Sobre Mim</a></li>
-					<li><a onclick="toggleDiv()" class="button" href="#skills">Habilidades</a></li>
-					<li><a onclick="toggleDiv()" class="button" href="#projects">Projetos</a></li>
-					<li><a onclick="toggleDiv()" class="button" href="#contact">Contato</a></li>
+					<li><a onclick="toggleDiv()" class="button" href="#contact">Contatos</a></li>
+					<li><a onclick="toggleDiv()" class="button nod" href="#welcome">Início</a></li>
+					<li><a onclick="toggleDiv()" class="button nod" href="#about_me">Quem Somos</a></li>
+					<li><a onclick="toggleDiv()" class="button nod" href="#skills">serviços</a></li>
+					<li><a onclick="toggleDiv()" class="button nod" href="#projects">Projetos</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -56,8 +56,11 @@
 						<img src="./img/Hidraulica.webp" alt="" class="imgslider" ; />
 						<span class="shadow"></span>
 						<div class="container_1">
-							<h2>texto texto</h2>
-							<p>texto texto</p>
+							<h2>Hidráulica Especializada</h2>
+							<p>
+								Serviços de impermeabilização meticulosos, técnicos e objetivos para áreas residenciais, prediais e industriais. Diagnóstico preciso de áreas problemáticas, tratamento adequado,
+								análise de conformidade e garantia de proteção duradoura para cada tipo de construção.
+							</p>
 						</div>
 					</div>
 
@@ -65,8 +68,11 @@
 						<img src="./img/hero1.png" alt="" class="imgslider" />
 						<span class="shadow"></span>
 						<div class="container_1">
-							<h2>texto texto</h2>
-							<p>texto texto</p>
+							<h2>Impermeabilização Profissional</h2>
+							<p>
+								Soluções hidráulicas detalhadas, técnicas e confiáveis para áreas residenciais, prediais e industriais. Diagnóstico minucioso de sistemas, intervenções precisas, análise de
+								conformidade, garantindo funcionalidade e eficiência para cada tipo de infraestrutura.
+							</p>
 						</div>
 					</div>
 
@@ -74,8 +80,11 @@
 						<img src="./img/Texturas.jpg" alt="" class="imgslider" />
 						<span class="shadow"></span>
 						<div class="container_1">
-							<h2>texto texto</h2>
-							<p>texto texto</p>
+							<h2>Texturização Exclusiva</h2>
+							<p>
+								Aplicações de texturas personalizadas, técnicas e adaptadas para ambientes residenciais, prediais e industriais. Selecção criteriosa de materiais, técnicas avançadas, análise de
+								conformidade e entrega de acabamentos que valorizam cada espaço da construção.
+							</p>
 						</div>
 					</div>
 
@@ -84,112 +93,128 @@
 				</div>
 				<div class="dotpages">
 					<span class="dot active" onclick="currentSlides(1)"></span>
-					<span class="dot " onclick="currentSlides(2)"></span>
-					<span class="dot " onclick="currentSlides(3)"></span>
+					<span class="dot" onclick="currentSlides(2)"></span>
+					<span class="dot" onclick="currentSlides(3)"></span>
 				</div>
 			</section>
 
 			<section class="serviços" id="skills">
 				<div class="serviços_C">
-					<h1>Serviços</h1>
-					<div class="type_skill">
-						<div class="tabs">
-							<div class="skills">
-								<img draggable="false" src="./img/Impermeabilização.jpg" alt="" class="skillimg" />
-								<div class="skillsT">
-									<h2>Impermeabilização</h2>
-									<p>
-										Garantir a impermeabilização adequada é fundamental para proteger sua propriedade contra danos e desgastes prematuros. Ao escolher nossos serviços, você investe em soluções de alta
-										qualidade, com profissionais experientes, garantindo a segurança e durabilidade que seu espaço merece.
-									</p>
-								</div>
+					<h1>NÓS TEMOS A SOLUÇÃO QUE VOCÊ PRECISA</h1>
+					<div class="tabs">
+						<div class="skills">
+							<img draggable="false" src="./img/Impermeabilização.jpg" alt="" class="skillimg" />
+							<div class="skillsT">
+								<h2>Impermeabilização</h2>
+								<p>
+									Uma impermeabilização correta é a chave para proteger sua propriedade contra danos. Com nossos serviços especializados, você garante durabilidade e proteção a cada canto.
+								</p>
 							</div>
+						</div>
 
-							<div class="skills">
-								<img draggable="false" src="./img/PinturaGeral.jpg" alt="" class="skillimg" />
-								<div class="skillsT">
-									<h2>Pintura Geral</h2>
-									<p></p>
-								</div>
+						<div class="skills">
+							<img draggable="false" src="./img/PinturaGeral.jpg" alt="" class="skillimg" />
+							<div class="skillsT">
+								<h2>Pinturas</h2>
+								<p>Oferecemos pinturas de alta qualidade com uma variedade que inclui tintas acrílicas, esmalte e epóxi. Cada escolha reflete nossa dedicação à excelência em acabamento e durabilidade, adaptando-se perfeitamente a cada necessidade do projeto.</p>
 							</div>
+						</div>
 
-							<div class="skills">
-								<img draggable="false" src="./img/Texturas.jpg" alt="" class="skillimg" />
-								<div class="skillsT">
-									<h2>Texturas</h2>
-									<p></p>
-								</div>
+						<div class="skills">
+							<img draggable="false" src="./img/Texturas.jpg" alt="" class="skillimg" />
+							<div class="skillsT">
+								<h2>Texturas</h2>
+								<p>Personalize seu espaço com nossas texturas, adaptadas conforme sua visão. Transformamos ambientes com detalhes que fazem a diferença.</p>
 							</div>
+						</div>
 
-							<div class="skills">
-								<img draggable="false" src="./img/Vinilico.webp" alt="" class="skillimg" />
-								<div class="skillsT">
-									<h2>Vinílico</h2>
-									<p></p>
-								</div>
+						<div class="skills">
+							<img draggable="false" src="./img/Vinilico.webp" alt="" class="skillimg" />
+							<div class="skillsT">
+								<h2>Vinílico</h2>
+								<p>Com os nossos revestimentos vinílicos, você realça a elegância de seu espaço, aliando estética e durabilidade.</p>
 							</div>
+						</div>
 
-							<div class="skills">
-								<img draggable="false" src="./img/Eletrica.jpg" alt="" class="skillimg" />
-								<div class="skillsT">
-									<h2>Elétrica</h2>
-									<p></p>
-								</div>
+						<div class="skills">
+							<img draggable="false" src="./img/Eletrica.jpg" alt="" class="skillimg" />
+							<div class="skillsT">
+								<h2>Elétrica</h2>
+								<p>Garanta instalações elétricas seguras e eficientes com nossa equipe especializada, atendendo demandas variadas com foco em segurança e precisão.</p>
 							</div>
+						</div>
 
-							<div class="skills">
-								<img draggable="false" src="./img/Hidraulica.webp" alt="" class="skillimg" />
-								<div class="skillsT">
-									<h2>Hidráulica Geral</h2>
-									<p></p>
-								</div>
+						<div class="skills">
+							<img draggable="false" src="./img/Hidraulica.webp" alt="" class="skillimg" />
+							<div class="skillsT">
+								<h2>Hidráulica Geral</h2>
+								<p>Nosso serviço hidráulico combina confiabilidade e eficiência, proporcionando soluções que se adequam ao seu projeto.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 
-			<section class="contatos" id="contatos">
-				<h1>Contatos</h1>
-				<div class="contato-area">
-					<form action="" class="emailsender">
-						<h2>Envie um <span>Email</span></h2>
-						<input class="textboxs" type="text" id="username" name="username" placeholder="Seu Nome" />
-						<input class="textboxs" type="email" placeholder="Email" name="email" id="email" />
-						<textarea class="textboxl" placeholder="Mensagem" name="" id="" cols="30" rows="10"></textarea>
-						<input type="button" value="Enviar" class="button" />
-					</form>
-	
-					<div class="conteudo7">
-						<div class="fale-conosco">
-							<h2>Fale <span>conosco</span></h2>
-							<p>Fale com a gente e faça seu orçamento via whatsapp ou email</p>
-							<a href="" class="button">Conversar Agora</a>
+			<section class="referencia">
+				<div class="referencia_c">
+					<div class="referenciaT">
+						<h2>Veja nosso trabalho</h2>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel at iusto? Excepturi sequi mollitia provident, veritatis consectetur unde, nisi numquam incidunt molestiae vitae in
+							possimus, aliquid adipisci itaque cupiditate.
+						</p>
+						<div>
+							<a href="" class="button">Ver mais</a>
 						</div>
-						<div class="numeros">
-							<h2>Nossos Contatos</h2>
-							<h3><i class="fa-solid fa-phone"></i>87 8124-3169</h3>
-							<h3><i class="fa-solid fa-phone"></i>87 99999-9999</h3>
-							<h3><i class="fa-solid fa-envelope"></i>DefumadasSul@gmail.com</h3>
+					</div>
+					<div class="referenciaI">
+						<div>
+							<img src="./img/antes.png" alt="" />
+							<h3>Antes</h3>
 						</div>
-						<div class="rede-sociais">
-							<h2>Nossas <span>Redes Socias</span></h2>
-							<div>
-								<a href=""><i class="fa-brands fa-square-twitter"></i></a>
-								<a href=""><i class="fa-brands fa-square-instagram"></i></a>
-								<a href="mailto:claudirneves41@gmail.com"><i class="fa-brands fa-square-facebook"></i></a>
-								<a href="https://api.whatsapp.com/send?phone=558781243169"><i class="fa-brands fa-square-whatsapp"></i></a>
-							</div>
+						<div>
+							<img src="./img/depois.png" alt="" />
+							<h3>Depois</h3>
 						</div>
 					</div>
 				</div>
-	
-				<div class="localizacao">
-					<h2>Nossa <span>Localização</span></h2>
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9375.43288851211!2d-36.50070198276246!3d-8.890380221338905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7070d200a110927%3A0x51f45fae994f83b3!2sGaranhuns%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1694691326545!5m2!1spt-BR!2sbr"
-						referrerpolicy="no-referrer-when-downgrade"
-					></iframe>
+			</section>
+
+			<section class="notas">
+				<H1>Avaliações dos nosso clientes</H1>
+				<div class="serviços_N">
+					<div class="nota">
+						<img draggable="false" src="./img/ps1.webp" alt="" class="skillimg" />
+						<div class="notat">
+							<h3>Ana</h3>
+							<p>
+								"A impermeabilização realizada em nosso prédio foi impecável! A equipe mostrou profissionalismo do início ao fim."
+							</p>
+						</div>
+						<div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+					</div>
+
+					<div class="nota">
+						<img draggable="false" src="./img/ps2.jpeg" alt="" class="skillimg" />
+						<div class="notat">
+							<h3>Roberto</h3>
+							<p>
+								"Estou encantado com a texturização feita em minha residência. Transformou completamente o ambiente!"
+							</p>
+							<div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+						</div>
+					</div>
+
+					<div class="nota">
+						<img draggable="false" src="./img/ps3.jpeg" alt="" class="skillimg" />
+						<div class="notat">
+							<h3>Jonathan</h3>
+							<p>
+								"Soluções hidráulicas rápidas e eficientes para nossa indústria. Recomendo fortemente os serviços da HorizonBuilds!"
+							</p>
+							<div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
