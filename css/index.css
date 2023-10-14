@@ -600,7 +600,7 @@ header {
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
-	max-width: 600px;
+	max-width: 450px;
 }
 
 .referenciai {
@@ -611,7 +611,7 @@ header {
 }
 
 .referenciai img {
-	width: 300px;
+	width: 350px;
 	height: 600px;
 	object-fit: cover;
 	border-radius: 12px;
