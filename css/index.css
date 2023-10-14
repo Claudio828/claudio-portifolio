@@ -306,6 +306,7 @@ header {
 	cursor: pointer;
 	border: none;
 	align-items: center;
+	text-decoration: none;
 
 	top: 0;
 	padding: 16px;
@@ -756,8 +757,17 @@ footer h2 {
 	.container_1 {
 		flex-direction: column;
 		text-align: center;
-		margin-left: 0;
+		max-width: 300px;
+		margin-left: 50px;
 	}
+
+	.dotpages {
+		display: flex;
+		gap: 10px;
+		position: absolute;
+		top: 90%;
+	}
+	
 
 	.social_icons {
 		justify-content: center;
