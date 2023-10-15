@@ -96,6 +96,7 @@ p {
 .nod {
 	background-color: var(--secondary);
 	border: var(--primary) 2px solid;
+	color: var(--text);
 }
 
 img {
