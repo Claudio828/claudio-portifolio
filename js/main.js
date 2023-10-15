@@ -27,10 +27,14 @@ window.addEventListener("scroll", function () {
 	var div = document.querySelector("#header"); // Substitua ".meuDiv" pelo seletor do seu div
 
 	if (scrollPosition <= 100) {
-		div.classList.add("twhite");
+		if (!div.classList.contains("hnota")) {
+			div.classList.add("twhite");
+		}
 		div.classList.remove("animaDivoff");
 	} else {
-		div.classList.remove("twhite");
+		if (!div.classList.contains("hnota")) {
+			div.classList.remove("twhite");
+		}
 		div.classList.add("animaDivoff");
 	}
 });
